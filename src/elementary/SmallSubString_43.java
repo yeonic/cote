@@ -1,3 +1,5 @@
+package elementary;
+
 public class SmallSubString_43 {
 
   public static void main(String[] args) {

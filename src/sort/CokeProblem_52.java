@@ -1,3 +1,5 @@
+package sort;
+
 public class CokeProblem_52 {
 
   public static void main(String[] args) {

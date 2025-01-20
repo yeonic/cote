@@ -1,3 +1,5 @@
+package elementary;
+
 public class Strange_41 {
 
   public static void main(String[] args) {

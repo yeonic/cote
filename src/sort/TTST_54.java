@@ -1,3 +1,5 @@
+package sort;
+
 public class TTST_54 {
 
   public static void main(String[] args) {

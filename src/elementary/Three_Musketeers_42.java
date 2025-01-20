@@ -1,3 +1,5 @@
+package elementary;
+
 import java.util.Arrays;
 
 public class Three_Musketeers_42 {

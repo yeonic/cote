@@ -1,3 +1,5 @@
+package elementary;
+
 public class StrManipulate_36 {
 
   public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package brute;
+
 public class PaintOver_59 {
 
   public static void main(String[] args) {

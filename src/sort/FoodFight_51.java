@@ -1,3 +1,5 @@
+package sort;
+
 public class FoodFight_51 {
 
   public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package elementary;
+
 public class InnerProduct_32 {
 
   public static void main(String[] args) {
@@ -6,10 +8,11 @@ public class InnerProduct_32 {
 
     System.out.println(solution(a, b));
   }
+
   static int solution(int[] a, int[] b) {
     int inner = 0;
 
-    for (int i=0; i<a.length; i++) {
+    for (int i = 0; i < a.length; i++) {
       inner += a[i] * b[i];
     }
 

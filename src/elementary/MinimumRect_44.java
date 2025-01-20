@@ -1,3 +1,5 @@
+package elementary;
+
 public class MinimumRect_44 {
 
   public static void main(String[] args) {

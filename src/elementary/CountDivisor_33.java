@@ -1,3 +1,5 @@
+package elementary;
+
 public class CountDivisor_33 {
 
   public static void main(String[] args) {
@@ -6,10 +8,10 @@ public class CountDivisor_33 {
 
   public static int solution(int left, int right) {
     int result = 0;
-    for(int i=left; i<=right; i++) {
+    for (int i = left; i <= right; i++) {
       int divisor = countDivisor(i);
       System.out.println(divisor);
-      if(divisor % 2 == 0) {
+      if (divisor % 2 == 0) {
         result += i;
       } else {
         result -= i;
@@ -23,8 +25,8 @@ public class CountDivisor_33 {
     int i;
     double sqrt = Math.sqrt(n);
 
-    for(i=1; i<sqrt; i++) {
-      if (n%i == 0) {
+    for (i = 1; i < sqrt; i++) {
+      if (n % i == 0) {
         count++;
       }
     }

@@ -1,3 +1,5 @@
+package brute;
+
 import java.util.stream.IntStream;
 
 public class WeaponOfKnights_60 {

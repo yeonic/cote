@@ -1,3 +1,5 @@
+package brute;
+
 import java.util.Arrays;
 
 public class Rottery_61 {

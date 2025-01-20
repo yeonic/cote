@@ -1,3 +1,5 @@
+package brute;
+
 public class Babbling_62 {
 
   public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package elementary;
+
 public class Reverse3Base_40 {
 
   public static void main(String[] args) {
