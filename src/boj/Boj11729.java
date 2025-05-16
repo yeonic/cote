@@ -1,13 +1,28 @@
 package boj;
 
-public class Boj11729 {
-    public static void main(String[] args) {
+import java.io.*;
 
+public class Boj11729 {
+    private static StringBuilder sb = new StringBuilder();
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
+
+        int k = Integer.parseInt(br.readLine());
+        sb.append((int) (Math.pow(2, k) - 1)).append("\n");
+        hanoi(1, 3, k);
+        bw.append(sb.toString());
+        bw.flush();
     }
 
     private static void hanoi(int a, int b, int n) {
-        //1 n = 1   1 3
-        //3 n = 2   1 2, 1 3, 2 3
-        //7 n = 3   1 3, 1 2, 3 2, 1 3, 2 1, 2 3, 1 3
+        if (n == 1) {
+            sb.append(a).append(" ").append(b).append("\n");
+            return;
+        }
+        hanoi(a, 6 - a - b, n - 1);
+        sb.append(a).append(" ").append(b).append("\n");
+        hanoi(6 - a - b, b, n - 1);
     }
 }
