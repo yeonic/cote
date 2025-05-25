@@ -24,8 +24,9 @@ public class Boj15650 {
                 sb.append(arr[k]).append(" ");
             }
             sb.append("\n");
+            System.out.print(sb.toString());
+            return;
         }
-        System.out.print(sb.toString());
 
         for (int k = 1; k <= N; k++) {
             // !isUsed && i==0
